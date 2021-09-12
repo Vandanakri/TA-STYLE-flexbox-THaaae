@@ -1,0 +1,50 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox assignment level 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <div class="container flex">
+                <img class="img" src="https://i.ibb.co/jhKgKgP/logo.png" >
+                <nav class="nav">
+                    <a class="w" href="#">HOME</a>
+                    <a class="g" href="#">CONTACT</a>
+                    <a class="w" href="#">BLOG</a>
+                </nav>
+            </div>
+        </header>
+        <header>
+            <h1>Gallery</h1>
+        </header>
+        <div class="col">
+        <img src="./assets/01.png" alt="">
+        <img src="./assets/02.png" alt="">
+        <img src="./assets/03.png" alt="">
+        <img src="./assets/04.png" alt="">
+        <img src="./assets/05.png" alt="">
+        <img src="./assets/06.png" alt="">
+        </div>
+    </main>
+    <footer class="footer flex">
+        <small>&copy Altcampus</small>
+        <nav>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </nav>
+    </footer>
+</body>
+</html>
